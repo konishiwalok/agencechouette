@@ -809,8 +809,7 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
         this.activeTarget = b, this.clear();
         var c = this.selector + '[data-target="' + b + '"],' + this.selector + '[href="' + b + '"]',
             d = a(c).parents("li").addClass("active");
-        d.parent(".dropdown-menu").length && (d = d.closest("li.dropdown").addClass("active")),
-            d.trigger("activate.bs.scrollspy")
+        d.parent(".dropdown-menu").length && (d = d.closest("li.dropdown").addClass("active")), d.trigger("activate.bs.scrollspy")
     }, b.prototype.clear = function() {
         a(this.selector).parentsUntil(this.options.target, ".active").removeClass("active")
     };
@@ -943,4 +942,4 @@ if ("undefined" == typeof jQuery) throw new Error("Bootstrap's JavaScript requir
             d.offset = d.offset || {}, null != d.offsetBottom && (d.offset.bottom = d.offsetBottom), null != d.offsetTop && (d.offset.top = d.offsetTop), b.call(c, d)
         })
     })
-}(jQuery);
+}(jQuery)
