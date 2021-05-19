@@ -645,6 +645,13 @@ a[data-lightbox]:hover img {
     color:#141820!important;
     margin-top:50px;
     }
+    .contacter p{
+        font-size:15px;
+        text-align: center;
+        font-weight:bold;
+        color:#141820!important;
+        margin-top:50px;
+        }
     .centrar{
         display:flex;
         align-items:center;
