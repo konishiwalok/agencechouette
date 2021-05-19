@@ -645,7 +645,24 @@ a[data-lightbox]:hover img {
     color:#141820!important;
     margin-top:50px;
     }
-    
+    .centrar{
+        display:flex;
+        align-items:center;
+        align-content: center;
+        justify-content:center;
+    }
+    .colortitledeux
+    {
+        color:#000000!important;
+    }
+    .tailletitledeux{
+        font-size:20px;
+        padding-top:40px;
+    }
+    .red{
+        color:rgb(197, 18, 18);
+        font-size: 25px;
+    }
 .sinpunto
 {
     list-style-type: none;
@@ -792,9 +809,6 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #27ff1fe7;
-}
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
