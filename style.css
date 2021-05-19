@@ -637,8 +637,34 @@ a[data-lightbox]:hover img {
     padding: 0;
     color: rgba(0, 0, 0, .5);
     background: none;
+}/*mio*/
+.contacter{
+    font-size:15px;
+    text-align: center;
+    font-weight:bold;
+    color:#141820!important;
+    margin-top:50px;
+    }
+    
+.sinpunto
+{
+    list-style-type: none;
 }
-
+.mailtocolor{
+    font-weight:bold;
+    color:#141820!important;
+}
+.textosblancos{
+    color:rgb(255, 255, 255)!important;
+    font-weight:bold;
+}
+.tallatxtpic{
+    font-size: 15px;
+}
+.tallatitulo
+{
+    font-size: 28px; 
+}
 h1,
 h2,
 h3,
@@ -753,7 +779,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(3 3 3 /70%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -767,7 +793,7 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #27ff1fe7;
 }
 
 .bgc-atomic-tangerine {
@@ -780,7 +806,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
