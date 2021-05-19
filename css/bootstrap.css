@@ -1432,14 +1432,18 @@ img {
 
 .carousel-inner>.item>a>img,
 .carousel-inner>.item>img,
-.img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    display: block;
+    display: flex;
     max-width: 100%;
-    height: auto
+    height: auto;
+    justify-content:center; 
+    align-content: center;
 }
-
+.img-responsive
+{max-width: 100%;
+    height: auto;
+}
 .img-rounded {
     border-radius: 6px
 }
@@ -4373,7 +4377,7 @@ tbody.collapse.in {
     cursor: not-allowed;
     background-color: transparent;
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
+   
 }
 
 .open>.dropdown-menu {
@@ -5124,7 +5128,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 340px
 }
 
-@media (max-device-width:480px) and (orientation:landscape) {
+@media (max-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 200px
